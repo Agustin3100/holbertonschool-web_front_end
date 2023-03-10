@@ -219,6 +219,22 @@ background-color: var(--color-light-grey);
     text-align: center;
 }
 
+.nav .nav-link::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 20rem;
+}
+
+.nav .nav-item .nav-link:hover::before{
+
+    background-color: var(--color-primary);
+    width: 100%;
+}
+
 .nav .nav-item{
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
