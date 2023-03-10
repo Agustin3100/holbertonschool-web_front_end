@@ -179,12 +179,13 @@ background-color: var(--color-light-grey);
 }
 
 .nav{
-    margin: 0;  /*!#*/
+    margin: 0;
+    list-style: none;
     padding: 0;
     text-align: center;
 }
 
-.nav-item{
+.nav .nav-item{
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-sie);
@@ -193,7 +194,7 @@ background-color: var(--color-light-grey);
     margin: var(--nav-item-margin); 
 }
 
-.nav-link{
+.nav .nav-link{
     display: block;
     padding: calc(0.5 * var(--root)) calc(var(--root)) calc(0.5 * var(--root)) calc(var(--root));
 }
