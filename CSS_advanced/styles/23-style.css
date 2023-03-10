@@ -248,7 +248,7 @@ text-align: right;
 
 }
 
-.footer-adress{
+.footer-address{
     color: var(--text-color);
 }
 
@@ -256,7 +256,7 @@ text-align: right;
     display: block;
 }
 
-.social-link svg{
+.social-link > svg{
     background-color: var(--text-color);
 }
 
