@@ -266,7 +266,7 @@ text-align: right;
 
 .card-services a{
     display: block;
-    padding: calc(2 *(--root));
+    padding: 2rem;
     background-color: var(--color-light-grey);
 }
 
