@@ -18,6 +18,9 @@
     --font-weight-regular: 400;
     --font-weight-bold: 700;
 
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
  }
 
 html {
@@ -32,6 +35,8 @@ html {
      font-size: var(--font-size-medium);
 
      font-weight: var(--font-weight-regular);
+
+     min-height: var(--line-height-base);  /*Set the minimum height of line boxes in the body to line-height-base*/
   }
   
   .visually-hidden{
