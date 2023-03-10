@@ -73,7 +73,7 @@ a{
 .section-title{
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
 }
@@ -85,4 +85,3 @@ a{
      font-weight: var(--font-weight-bold);
  }
 
- 
