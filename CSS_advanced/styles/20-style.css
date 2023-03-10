@@ -234,8 +234,8 @@ text-align: right;
 }
 
 .row::after{
-    content: none;
-    display: list-item;
+    content: "";
+    display: table;
     float: none;
 }
 
