@@ -205,7 +205,7 @@ background-color: var(--color-light-grey);
     color: var(--nav-item-link-hover);
 }
 
-.ul.row{
+ul.row{
     margin: 0;
     padding: 0;
     list-style: none;
