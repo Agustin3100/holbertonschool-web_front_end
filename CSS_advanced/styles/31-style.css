@@ -421,18 +421,14 @@ content: "";
 opacity: 1;
 }
 
-.card-testimonial{
+.card-testimonial .card-quote{
     position: relative;
-}
-  
-.card-qoute{
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.card-testimonial .card-qoute::after{
+.card-testimonial .card-qoute::before{
     content: \201C;
     position: absolute;
     top: -4.5rem;
