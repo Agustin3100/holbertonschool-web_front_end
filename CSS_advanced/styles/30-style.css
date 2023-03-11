@@ -375,7 +375,7 @@ overflow: hidden;
 .card-work .card-image img{
     height: 30rem;
     width: 100%;
-    --object-fit: cover;
+    object-fit: cover;
     vertical-align: bottom;
 }
 
