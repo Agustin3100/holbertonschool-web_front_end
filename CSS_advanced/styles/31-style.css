@@ -428,7 +428,7 @@ opacity: 1;
     transform: translate(-50%, -50%);
 }
 
-.card-testimonial .card-qoute::before{
+.card-testimonial .card-quote::before{
     content: \201C;
     position: absolute;
     top: -4.5rem;
