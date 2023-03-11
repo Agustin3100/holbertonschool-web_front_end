@@ -367,7 +367,7 @@ text-align: right;
     left: var(--header-logo-link-left);
 }
 
-.card-work .card-work{
+.card-work .card-outer{
 position: relative;
 overflow: hidden;
 }
